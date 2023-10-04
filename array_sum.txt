@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+main(){
+    int a[10],i,b,n;
+    cout<<"enter the values which you wanna sum:"<<endl;
+    cin>>n;
+    for(i=1;i<=n;i++){
+        cout<<"enter "<<i<<" value: ";
+
+        cin>>a[i];
+    }
+    for(i=1;i<=n;i++){
+        b=b+a[i];
+
+    }
+    cout<<"the sum is: "<<b<<endl;
+    return 0;
+
+
+
+
+
+}
